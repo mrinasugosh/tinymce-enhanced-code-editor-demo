@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Code Editor Feature</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="#">
+    <!-- TinyMCE -->
+    <script src="tinymce/js/tinymce/tinymce.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/7/tinymce.min.js"></script>
+</head>
+<body>
+    <textarea id="template-creation">
+        <div id="template">
+        <section class="cover">
+          <header>
+            <img src="https://i.pinimg.com/originals/e1/45/4d/e1454d53ec5fca711806ddabf1d6d37b.png" alt="demo document logo with triangle shapes" width="160" height="160">
+          </header>
+          <main class="editable">
+          <h1>Doggy Day Care Plan</h1>
+        
+          <p>*{client.firstname}* *{client.lastname}*</p>
+          <p>*{client.company}*</p>
+          </main>
+        
+          <footer>
+          <p><small>Confidential</small></p>
+          </footer>
+        </section>
+        
+        
+        <section>
+          <main class="editable">
+            <h1>Executive Summary</h1>
+            <p>*{client.company}* has approached us for support in evaluating, constructing, and deploying a doggy day care facility, which may include:</p>
+            
+            <ul>
+              <li>Planning and designing dog-friendly spaces</li>
+              <li>Implementing safety and comfort measures for pets</li>
+              <li>Creating an engaging environment for pet activities and socialization</li>
+            </ul>
+            
+            <p>Our team has extensive expertise in pet care services, coupled with a strong record of success in similar projects. We are dedicated to delivering top-notch outcomes, ensuring our clients achieve sustainable gains in pet satisfaction and long-term business growth.</p>
+            
+            <p>*{submission.date}*</p>            
+          </main>
+        </section>
+        
+        <section>
+            <main class="editable">
+                <h1>Process</h1>
+              
+                <p>We work closely with you to build and fulfill the doggy day care project’s needs by *{completion.date}*.</p>
+              
+                <p>We do this by establishing clear goals and a comprehensive solution based on *{client.company}*’s requirements.</p>
+              
+                <p>Our process is as follows.</p>
+              
+                <h2>Phase 1: Initial Consultation</h2>
+              
+                <p>Our expert team reviews any and all project-related needs and determines:</p>
+              
+                <ul>
+                  <li>Existing challenges in setting up a doggy day care facility; and</li>
+                  <li>Opportunities to enhance pet care services.</li>
+                </ul>
+              
+                <p>Based on this initial consultation, we develop a solutions list.</p>
+              
+                <h2>Phase 2: Solution Model</h2>
+              
+                <p>Working with your team, we implement the selected solution.</p>
+              
+                <p>This allows us to tailor the doggy day care solution specifically for *{client.company}*, ensuring the services are customized to your needs, without unnecessary features or expenses.</p>
+              
+                <h2>Phase 3: Implementation</h2>
+              
+                <p>Once we have agreed on a solution, our team implements the project plan.</p>
+              
+                <p>We will first deliver a detailed outline of the plan with a timeline that includes all relevant due dates and deliverables.</p>
+              </main>
+        </section>
+        
+        <section class="end">
+            <main class="editable">
+                <p><span style="font-size: 20px;">Our Interior Design and Consulting Services have been helping store owners for over 10 years. Since the beginning, our focus has always been on quality care and reliable service. With hundreds of happy clients across multiple regions, we are here for you henever you need us.</span></p>
+                <p>&nbsp;</p>
+                <p><span style="font-size: 20px;">Please reach out to our regional associates for any inquiries:</span></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><img src="https://media.licdn.com/dms/image/v2/D4E03AQEhPAHygiq6jA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727801161661?e=1734566400&v=beta&t=TJ7YdZyt9BToubt9hQ-Hgc8Nlkpn75LL6Wt4aDD5Az4" alt="profile picture of one staff member" width="84" height="84"></p>
+              <p>Mrina Sugosh <br>+1 312 555 6789 <br><a href="mailto:mrina.sugosh@example.com">mrina.sugosh@example.com</a></p>
+                <p>&nbsp;</p>
+                <p><img src="https://images.ctfassets.net/s600jj41gsex/2VELEHg2k0my0LCBmMKnvv/3b5a1e4abed94a4afd465fdbf81a1a27/IMG_4911.jpg?w=96&h=128&q=50&fm=webp&fit=scale" alt="profile picture of a second staff member" width="84" height="100"></p>
+              <p>Coco Poley <br>+1 917 555 1234 <br><a href="mailto:coco.poley@example.com">coco.poley@example.com</a></p>
+              </main>
+              
+        </section>
+        </textarea>
+    <script src="script.js"></script>
+</body>
+</html>
