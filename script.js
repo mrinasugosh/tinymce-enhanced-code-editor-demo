@@ -1,7 +1,10 @@
 tinymce.init({
     selector: 'textarea#template-creation',
-    plugins: 'anchor autolink link lists image code mergetags wordcount',
+    plugins: 'anchor autolink link lists image code advcode fullscreen mergetags wordcount',
     toolbar: 'undo redo | blocks | bold italic strikethrough backcolor | mergetags | link image | align bullist numlist | code ',
+    advcode_inline: true,
+    advcode_prettify_getcontent: true,
+    advcode_prettify_editor: false,
     height: 750,
     editable_root: false,
     editable_class: 'editable',
